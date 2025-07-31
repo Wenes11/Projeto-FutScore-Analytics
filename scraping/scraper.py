@@ -38,4 +38,4 @@ print(assisentencias_por_jogo.text)
 ratings= whoscored.find_element(By.XPATH,'/html/body/div[4]/div[3]/div[1]/div[11]/div/div[4]')
 print(ratings.text) 
 
-quit= whoscored.quit()
+quit = whoscored.quit()
