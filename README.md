@@ -98,3 +98,5 @@ Implementar filtros interativos no dashboard (ex: filtrar por time).
 Criar um executável (.exe) para facilitar o uso por pessoas sem conhecimento de programação.
 
 Portar a extração de dados para uma API, se disponível, para maior estabilidade.
+
+Autor: João Vitor Vargas Martins
