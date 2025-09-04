@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://www.google.com/search?q=https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Soccer%2520Ball.png" alt="Soccer Ball" width="120" height="120" />
+<img src="https://www.google.com/search?q=https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Soccer%2520Ball.png" alt="Bola de Futebol" width="120" height="120" />
 </p>
 
 <h1 align="center">⚽ FutScore Analytics – Dashboard do Brasileirão</h1>
@@ -12,6 +12,13 @@
 <img alt="Status" src="https://www.google.com/search?q=https://img.shields.io/badge/status-conclu%C3%ADdo-green%3Fstyle%3Dfor-the-badge">
 <img alt="Python" src="https://www.google.com/search?q=https://img.shields.io/badge/Python-3.8%2B-blue%3Fstyle%3Dfor-the-badge%26logo%3Dpython">
 <img alt="Feito com" src="https://www.google.com/search?q=https://img.shields.io/badge/feito%2520com-Dash%2520%26%2520Plotly-purple%3Fstyle%3Dfor-the-badge">
+</p>
+
+📸 Visualização do Projeto
+Aqui está uma prévia do dashboard final em ação:
+
+<p align="center">
+<img src="./docs/img/dashboard-final.png" alt="Prévia do Dashboard Final" width="800"/>
 </p>
 
 O FutScore Analytics é uma aplicação em Python que automatiza todo o fluxo de análise de dados do futebol: desde a coleta de estatísticas do site WhoScored.com até a apresentação em um dashboard interativo.
@@ -48,17 +55,20 @@ Interface do Navegador: ChromeDriver
 A arquitetura do projeto foi desenhada para separar as responsabilidades, facilitando a manutenção e escalabilidade.
 
 Projeto-FutScore-Analytics/
+├── docs/
+│   └── img/
+│       └── dashboard-final.png
 ├── scraping/
-│   ├── scraper.py          # Script para extrair os dados do WhoScored
+│   ├── scraper.py
 │   └── __init__.py
 ├── data/
-│   └── *.xlsx              # Arquivos Excel com os dados brutos coletados
+│   └── *.xlsx
 ├── analysis/
-│   ├── analise_Dados.py    # Script para limpar os dados e criar o dashboard
+│   ├── analise_Dados.py
 │   └── __init__.py
-├── main.py                 # Ponto de entrada para iniciar a aplicação
-├── requirements.txt        # Lista de dependências do projeto
-└── README.md               # Esta documentação
+├── main.py
+├── requirements.txt
+└── README.md
 
 🚀 Como Executar o Projeto
 Siga os passos abaixo para ter o dashboard rodando em seu ambiente local.
@@ -99,4 +109,4 @@ Criar um executável (.exe) para facilitar o uso por pessoas sem conhecimento de
 
 Portar a extração de dados para uma API, se disponível, para maior estabilidade.
 
-Autor: João Vitor Vargas Martins
+Autor João Vitor
