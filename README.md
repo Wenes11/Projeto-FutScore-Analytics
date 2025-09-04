@@ -109,4 +109,4 @@ Criar um executável (.exe) para facilitar o uso por pessoas sem conhecimento de
 
 Portar a extração de dados para uma API, se disponível, para maior estabilidade.
 
-Autor João Vitor
+Autor João Vitor Vargas Martins
