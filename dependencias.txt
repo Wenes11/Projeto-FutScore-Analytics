@@ -1,5 +1,0 @@
-selenium
-pandas
-matplotlib
-seaborn
-
