@@ -53,23 +53,21 @@ Interface do Navegador: ChromeDriver
 
 📂 Estrutura do Projeto
 A arquitetura do projeto foi desenhada para separar as responsabilidades, facilitando a manutenção e escalabilidade.
-
 Projeto-FutScore-Analytics/
 ├── docs/
-│   └── img/
-│       └── dashboard-final.png
+│ └── img/
+│ └── dashboard-final.png
 ├── scraping/
-│   ├── scraper.py
-│   └── __init__.py
+│ ├── scraper.py
+│ └── init.py
 ├── data/
-│   └── *.xlsx
+│ └── *.xlsx
 ├── analysis/
-│   ├── analise_Dados.py
-│   └── __init__.py
+│ ├── analise_Dados.py
+│ └── init.py
 ├── main.py
 ├── requirements.txt
 └── README.md
-
 🚀 Como Executar o Projeto
 Siga os passos abaixo para ter o dashboard rodando em seu ambiente local.
 
